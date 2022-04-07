@@ -14,6 +14,7 @@ public class Liabary {
 	public static void custom_HandleDropdown(WebElement element ,String text) {
 		Select select=new Select(element);
 		select.selectByVisibleText(text);
+		system.out.print("ro");
 	}
 	
 }
