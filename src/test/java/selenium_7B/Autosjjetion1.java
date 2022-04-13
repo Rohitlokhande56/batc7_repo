@@ -21,6 +21,7 @@ public class Autosjjetion1 {
 		
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("movies");
 		List<WebElement> list=driver.findElements(By.xpath("//ul[@jsname='bw4e9b']/li"));
+		
 		Thread.sleep(5000);
 		System.out.println(list.size());
 		Thread.sleep(5000);
